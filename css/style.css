@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  * a {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+  }
+  
+  @media (max-width: 800px) {
+    aside {
+      display: none;
+    }
+  }
+  
+  .newas {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #mainWrap {
+    display: flex;
+    position: relative;
+  }
+  
+  aside {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 41, 41);
+    max-width: 25%;
+    height: 99%;
+    position: sticky;
+    top: 0%;
+  }
+  
+  aside div:nth-child(1) {
+    padding: 10%;
+  }
+  
+  aside div:nth-child(1) img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  aside div:nth-child(1) p {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  aside > div:nth-child(2) > ul > li {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  
+  aside ul li {
+    background-color: transparent;
+  }
+  
+  aside ul li a {
+    color: white;
+  }
+  
+  aside ul li:hover {
+    background-color: white;
+  }
+  
+  aside ul li:hover a {
+    color: black;
+  }
+  
+  aside ul li a.active {
+    background-color: white;
+    color: black;
+  }
+  
+  section {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .mainCont {
+    color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .mainCont h2 {
+    font-size: 3rem;
+    padding-bottom: 30px;
+  }
+  
+  .mainCont p {
+    color: rgb(81, 81, 81);
+    font-size: 1rem;
+  }
+  
+  .introduction {
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .myPage {
+    padding-top: 30px;
+  }
+  
+  .myPage h5 {
+    font-size: 1.5rem;
+  }
+  
+  .skillSet {
+    padding: 30px 0;
+  }
+  
+  .skillSet p {
+    width: 20%;
+    padding-right: 40px;
+  }
+  
+  .skillName {
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+  }
+  
+  .portfolio {
+    padding-top: 30px;
+  }
+  
+  .portfolio h2 {
+    font-size: 3rem;
+    padding-bottom: 30px;
+  }
+  
+  .portfolio > p:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .myRole {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .myRoleP {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 0;
+  }
+  
+  .myRole > ul > li p {
+    width: 30%;
+  }
+  
+  .myRole img {
+    width: 100%;
+  }
+  
+  .myRole div ul li {
+    list-style-type: none;
+  }
+  
+  .myRole div {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 30px;
+  }
+  
+  .myRole div ul li a:hover {
+    color: rgb(114, 0, 0);
+    text-decoration: underline;
+  }
+  
+  .contact {
+    padding-top: 30px;
+  }
+  
+  .contact p {
+    font-size: 1.5rem;
+  }
+  
+  .ps {
+    margin-top: 30px;
+    font-size: 0.9rem !important;
+  }
+  
+  .active {
+    background-color: white !important;
+  }
+  
+  .active a {
+    color: black !important;
+  }
+  
